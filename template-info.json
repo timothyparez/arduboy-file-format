@@ -1,0 +1,43 @@
+{
+	"title": "Game Name",
+	"description": "This is a really fun example game that can be played around with and modified!",
+	"version": "1.51",
+	"genre": "Puzzle, Shooter, Application, Demo, Action, Arcade, Platformer, RPG, Racing, Sports, Misc",
+	"device": "Arduboy or DevKit",
+	"date": "2016-12-23",
+	"url": "http://www.arduboy.com",
+	"companion": "http://www.arduboy.com",
+	"sourceUrl": "http://www.arduboy.com",
+	"email": "info@arduboy.com",
+	"banner": "banner.png",
+	"publisher": "Team Arduboy",
+	"screenshots": [
+		"screenshot00.png",
+		"screenshot01.png",
+		"screenshot02.png"
+	],
+	"hexes": [
+		{
+			"title": "Game Name",
+			"hex":	"app1.hex"
+		},
+		{
+			"title": "Game Name 2: Electric Boogaloo",
+			"hex":	"app2.hex"
+		}
+	],
+	"author": "Delegatevoid  - crait - JO3RI",
+	"code": "Delegatevoid  - crait - JO3RI",
+	"idea": "Delegatevoid  - crait - JO3RI",
+	"art": "Delegatevoid  - crait - JO3RI",
+	"sound": "Delegatevoid  - crait - JO3RI",
+	"buttons": {
+		"buttonUp": "Jump",
+		"buttonDown": "Move Down",
+		"buttonLeft": "Move Left",
+		"buttonRight": "Move Right",
+		"buttonA": "Select",
+		"buttonB": "Rotate Piece",
+		"buttonAB": "Pause"
+	}
+}
