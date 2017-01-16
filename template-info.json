@@ -1,43 +1,66 @@
 {
-	"title": "Game Name",
-	"description": "This is a really fun example game that can be played around with and modified!",
-	"version": "1.51",
-	"genre": "Puzzle, Shooter, Application, Demo, Action, Arcade, Platformer, RPG, Racing, Sports, Misc",
-	"device": "Arduboy or DevKit",
-	"date": "2016-12-23",
-	"url": "http://www.arduboy.com",
-	"companion": "http://www.arduboy.com",
-	"sourceUrl": "http://www.arduboy.com",
-	"email": "info@arduboy.com",
-	"banner": "banner.png",
-	"publisher": "Team Arduboy",
-	"screenshots": [
-		"screenshot00.png",
-		"screenshot01.png",
-		"screenshot02.png"
-	],
-	"hexes": [
-		{
-			"title": "Game Name",
-			"hex":	"app1.hex"
-		},
-		{
-			"title": "Game Name 2: Electric Boogaloo",
-			"hex":	"app2.hex"
-		}
-	],
-	"author": "Delegatevoid  - crait - JO3RI",
-	"code": "Delegatevoid  - crait - JO3RI",
-	"idea": "Delegatevoid  - crait - JO3RI",
-	"art": "Delegatevoid  - crait - JO3RI",
-	"sound": "Delegatevoid  - crait - JO3RI",
-	"buttons": {
-		"buttonUp": "Jump",
-		"buttonDown": "Move Down",
-		"buttonLeft": "Move Left",
-		"buttonRight": "Move Right",
-		"buttonA": "Select",
-		"buttonB": "Rotate Piece",
-		"buttonAB": "Pause"
-	}
+  "title": "Game Name",
+  "description": "This is a really fun example game that can be played around with and modified!",
+  "version": "1.52",
+  "genre": "Puzzle, Shooter, Application, Demo, Action, Arcade, Platformer, RPG, Racing, Sports, Misc",
+  "date": "16/01/2017 22:31:21",
+  "author": "Delegatevoid  - crait - JO3RI",
+  "url": "http://www.arduboy.com",
+  "companion": "http://www.arduboy.com/example/companion.html",
+  "sourceUrl": "http://www.arduboy.com/example/source.html",
+  "email": "info@arduboy.com",
+  "publisher": "Team Arduboy",
+  "idea": "Delegatevoid - crait - JO3RI",
+  "code": "Delegatevoid - crait - JO3RI",
+  "art": "Delegatevoid - crait - JO3RI",
+  "sound": "Delegatevoid - crait - JO3RI",
+  "banner": "banner.jpg",
+  "buttons": [
+    {
+        "control": "ButtonA",
+        "action": "Run faster"
+    },
+    {
+        "control": "ButtonB",
+        "action": "Jump"
+    },
+    {
+        "control": "Left",
+        "action": "Go left"
+    },
+    {
+        "control": "Right",
+        "action": "Go right"
+    },
+    {
+        "control": "Up",
+        "action": "Look up"
+    },
+    {
+        "control": "Down",
+        "action": "Pick up"
+    }
+ ],
+  "binaries": [
+    {
+      "title": "Game 1",
+      "filename": "filename.hex",
+      "device": "Arduboy"
+    },
+    {
+      "title": "Game 2",
+      "filename": "other-filename.hex",
+      "device": "Arduboy"
+    }
+  ],
+  "screenshots": [
+    {
+      "title": "Title screen",
+      "filename": "titlescreen.png"
+    },
+    {
+      "title": "In game",
+      "filename": "level1.png"
+    }
+  ]
 }
